@@ -6,6 +6,7 @@ import filterReducer from "../reducers/filters";
 
 const StupidFunction = () => {
 	console.log("This function literally does nothing.");
+	console.log("adding another pointless console.log thing.");
 };
 
 export default () => {
