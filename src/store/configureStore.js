@@ -4,6 +4,10 @@ import filterReducer from "../reducers/filters";
 
 // Store Creation
 
+const StupidFunction = () => {
+	console.log("This function literally does nothing.");
+};
+
 export default () => {
 	const store = createStore(
 		combineReducers({
